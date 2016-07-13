@@ -16,5 +16,3 @@ export JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.91-1.b14.el7_2.x86_64/jr
 export EC2_HOME=/usr/local/ec2/ec2-api-tools-1.7.5.1
 export PATH=$PATH:$EC2_HOME/bin
 
-export AWS_SECRET_KEY=hZFIdeIBR7J5sD7x/khzDLyClZiajxonkbbtACwA
-export AWS_ACCESS_KEY=AKIAJKEIC3UXZVLPEKUA
