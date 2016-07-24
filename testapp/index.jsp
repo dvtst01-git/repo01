@@ -10,7 +10,7 @@
 out.print( request.getRemoteAddr() );
 %>
 <table width="100%" border="1" align="center">
-<tr bgcolor="#949494">
+<tr bgcolor="#959595">
 <th>Header Name</th><th>Header Value(s)</th>
 </tr>
 <%
