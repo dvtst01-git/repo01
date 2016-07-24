@@ -1,0 +1,6 @@
+- hosts: appdeploy
+gather_facts: false
+sudo: true
+tasks:
+- name: Deploy App
+copy: src=/var/lib/jenkins/jobs/workspace/tomcat_test/testapp.war dest="/opt/apache-tomcat-8.5.4/webapps/testapp##{{ buildnum }}.war" owner=tomcat group=tomcat
