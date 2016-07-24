@@ -1,4 +1,5 @@
 - hosts: appdeploy
+  gather_facts: false
   sudo: true
   tasks:
   - name: Deploy App
