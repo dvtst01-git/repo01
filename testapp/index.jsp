@@ -9,8 +9,6 @@
 <%
 out.print( request.getRemoteAddr() );
 %>
-<%= date = new java.util.Date() %>
-<p>Greetings, this is the first version of our test app. The time is currently: <%= date %></p>
 <table width="100%" border="1" align="center">
 <tr bgcolor="#949494">
 <th>Header Name</th><th>Header Value(s)</th>
