@@ -3,4 +3,4 @@
   sudo: true
   tasks:
   - name: Deploy App
-    copy: src=/var/lib/jenkins/workspace/tomcat_test/testapp/testapp.war dest="/opt/apache-tomcat-8.5.4/webapps/testapp##{{ buildnum }}.war" owner=root group=root
+    copy: src=/var/lib/jenkins/workspace/tomcat_test/testapp/testapp.war dest="/opt/apache-tomcat-8.5.4/webapps/testapp##{{ buildnum }}.war" owner=root group=root mode=0644
